@@ -30,7 +30,7 @@ lstm = model.LSTM()
 loss_res = lstm.lstm_train(train_data)
 # 保存模型
 save_path = "temp.pkl"
-torch.load(lstm, save_path)
+torch.save(lstm, save_path)
 #
 #
 # # 测试
